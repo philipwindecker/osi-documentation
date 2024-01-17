@@ -27,7 +27,7 @@ jobs:
     - name: Checkout open-simulation-interface
       uses: actions/checkout@v2
       with:
-        repository: OpenSimulationInterface/open-simulation-interface
+        repository: philipwindecker/open-simulation-interface
         path: content/open-simulation-interface
         fetch-depth: 0
 
@@ -35,13 +35,13 @@ jobs:
     - name: Checkout OSI Sensor Model Packaging
       uses: actions/checkout@v2
       with:
-        repository: OpenSimulationInterface/osi-sensor-model-packaging
+        repository: philipwindecker/osi-sensor-model-packaging
         path: content/osi-sensor-model-packaging
 
     - name: Checkout proto2cpp
       uses: actions/checkout@v2
       with:
-        repository: OpenSimulationInterface/proto2cpp
+        repository: philipwindecker/proto2cpp
         path: proto2cpp
 
     # Versioning
